@@ -30,7 +30,9 @@ p + p { margin-top: 17px; }
 .section { padding: 58px 0; }
 .section-head { margin-bottom: 26px; }
 .section-head p { margin-top: 20px; }
-.section-head p, .prose, .abstract p { max-width: 900px; }
+/* Body copy shares the figure container width and side margins. */
+.section-head p, .prose { max-width: none; }
+.abstract p { max-width: 900px; }
 .prose { margin-top: 26px; }
 .skip-link { position: absolute; top: -80px; left: 16px; padding: 12px; z-index: 99; background: white; }
 .skip-link:focus { top: 10px; }
