@@ -22,6 +22,7 @@ h2 { font-size: 34px; line-height: 1.3; font-weight: 600; letter-spacing: -.5px;
 strong { font-weight: 600; }
 img { display: block; max-width: 100%; height: auto; }
 svg { display: block; }
+p { text-align: justify; text-align-last: left; }
 p + p { margin-top: 17px; }
 .wrap { width: min(var(--max), calc(100% - 64px)); margin: auto; }
 .narrow { max-width: 850px; }
@@ -53,7 +54,7 @@ h1 { max-width: 1000px; margin: auto; font-size: clamp(33px, 4vw, 47px); line-he
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid #cfd4d9; border-radius: 5px; padding: 9px 17px; font-size: 20px; font-weight: 500; line-height: 1.4; background: white; color: var(--ink); text-decoration: none; }
 .button:hover { border-color: var(--ink); background: var(--wash); }
 .button svg { width: 16px; height: 16px; }
-.hero-summary { max-width: 830px; margin: 29px auto 0; font-size: 20px; line-height: 1.8; text-align: left; }
+.hero-summary { max-width: 830px; margin: 29px auto 0; font-size: 20px; line-height: 1.8; }
 .teaser { margin-top: 29px; }
 .teaser img { width: 100%; }
 
